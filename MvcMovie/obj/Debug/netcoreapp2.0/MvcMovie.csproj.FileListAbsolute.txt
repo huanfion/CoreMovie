@@ -1,0 +1,11 @@
+D:\Work\huanfion\mygit\MvcMovie\MvcMovie\bin\Debug\netcoreapp2.0\MvcMovie.deps.json
+D:\Work\huanfion\mygit\MvcMovie\MvcMovie\bin\Debug\netcoreapp2.0\MvcMovie.runtimeconfig.json
+D:\Work\huanfion\mygit\MvcMovie\MvcMovie\bin\Debug\netcoreapp2.0\MvcMovie.runtimeconfig.dev.json
+D:\Work\huanfion\mygit\MvcMovie\MvcMovie\bin\Debug\netcoreapp2.0\MvcMovie.dll
+D:\Work\huanfion\mygit\MvcMovie\MvcMovie\bin\Debug\netcoreapp2.0\MvcMovie.pdb
+D:\Work\huanfion\mygit\MvcMovie\MvcMovie\obj\Debug\netcoreapp2.0\MvcMovie.csprojResolveAssemblyReference.cache
+D:\Work\huanfion\mygit\MvcMovie\MvcMovie\obj\Debug\netcoreapp2.0\MvcMovie.csproj.CoreCompileInputs.cache
+D:\Work\huanfion\mygit\MvcMovie\MvcMovie\obj\Debug\netcoreapp2.0\MvcMovie.AssemblyInfoInputs.cache
+D:\Work\huanfion\mygit\MvcMovie\MvcMovie\obj\Debug\netcoreapp2.0\MvcMovie.AssemblyInfo.cs
+D:\Work\huanfion\mygit\MvcMovie\MvcMovie\obj\Debug\netcoreapp2.0\MvcMovie.dll
+D:\Work\huanfion\mygit\MvcMovie\MvcMovie\obj\Debug\netcoreapp2.0\MvcMovie.pdb
