@@ -9,3 +9,14 @@ D:\Work\huanfion\mygit\MvcMovie\ContosoUniversity\obj\Debug\netcoreapp2.0\Contos
 D:\Work\huanfion\mygit\MvcMovie\ContosoUniversity\obj\Debug\netcoreapp2.0\ContosoUniversity.AssemblyInfo.cs
 D:\Work\huanfion\mygit\MvcMovie\ContosoUniversity\obj\Debug\netcoreapp2.0\ContosoUniversity.dll
 D:\Work\huanfion\mygit\MvcMovie\ContosoUniversity\obj\Debug\netcoreapp2.0\ContosoUniversity.pdb
+D:\Work\Code\C#\mygit\CoreMovie\ContosoUniversity\obj\Debug\netcoreapp2.0\ContosoUniversity.csprojResolveAssemblyReference.cache
+D:\Work\Code\C#\mygit\CoreMovie\ContosoUniversity\obj\Debug\netcoreapp2.0\ContosoUniversity.csproj.CoreCompileInputs.cache
+D:\Work\Code\C#\mygit\CoreMovie\ContosoUniversity\obj\Debug\netcoreapp2.0\ContosoUniversity.AssemblyInfoInputs.cache
+D:\Work\Code\C#\mygit\CoreMovie\ContosoUniversity\obj\Debug\netcoreapp2.0\ContosoUniversity.AssemblyInfo.cs
+D:\Work\Code\C#\mygit\CoreMovie\ContosoUniversity\obj\Debug\netcoreapp2.0\ContosoUniversity.dll
+D:\Work\Code\C#\mygit\CoreMovie\ContosoUniversity\obj\Debug\netcoreapp2.0\ContosoUniversity.pdb
+D:\Work\Code\C#\mygit\CoreMovie\ContosoUniversity\bin\Debug\netcoreapp2.0\ContosoUniversity.deps.json
+D:\Work\Code\C#\mygit\CoreMovie\ContosoUniversity\bin\Debug\netcoreapp2.0\ContosoUniversity.runtimeconfig.json
+D:\Work\Code\C#\mygit\CoreMovie\ContosoUniversity\bin\Debug\netcoreapp2.0\ContosoUniversity.runtimeconfig.dev.json
+D:\Work\Code\C#\mygit\CoreMovie\ContosoUniversity\bin\Debug\netcoreapp2.0\ContosoUniversity.dll
+D:\Work\Code\C#\mygit\CoreMovie\ContosoUniversity\bin\Debug\netcoreapp2.0\ContosoUniversity.pdb

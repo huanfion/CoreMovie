@@ -2,6 +2,8 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace ContosoUniversity.Common
@@ -33,7 +35,7 @@ namespace ContosoUniversity.Common
         /// <param name="updateTargetId">异步分页时，被更新的目标元素Id</param>
         /// <param name="numericPagingButtonCount">数字分页按钮显示个数</param>
         /// <returns>分页按钮html代码</returns>
-        public static MvcHtmlString AjaxPagingButton<T>(this HtmlHelper html, HaiTunSP.Core.IPagedList<T> pagingDataSet, string updateTargetId, PaginationMode paginationMode = PaginationMode.NumericNextPrevious, int numericPagingButtonCount = 7, string ajaxUrl = null)
+        public static MvcHtmlString AjaxPagingButton<T>(this HtmlHelper html, IPagedList<T> pagingDataSet, string updateTargetId, PaginationMode paginationMode = PaginationMode.NumericNextPrevious, int numericPagingButtonCount = 7, string ajaxUrl = null)
         {
             return PagingButton(html, pagingDataSet, true, updateTargetId, paginationMode, numericPagingButtonCount, ajaxUrl);
         }
@@ -48,7 +50,7 @@ namespace ContosoUniversity.Common
         /// <param name="numericPagingButtonCount">数字分页按钮显示个数</param>
         /// <param name="enableAjax">是否使用ajax分页</param>
         /// <returns>分页按钮html代码</returns>
-        private static MvcHtmlString PagingButton<T>(this HtmlHelper html, HaiTunSP.Core.IPagedList<T> pagingDataSet, bool enableAjax, string updateTargetId, PaginationMode paginationMode = PaginationMode.NumericNextPrevious, int numericPagingButtonCount = 7, string ajaxUrl = null)
+        private static MvcHtmlString PagingButton<T>(this HtmlHelper html, IPagedList<T> pagingDataSet, bool enableAjax, string updateTargetId, PaginationMode paginationMode = PaginationMode.NumericNextPrevious, int numericPagingButtonCount = 7, string ajaxUrl = null)
         {
             if (pagingDataSet.TotalCount == 0 || pagingDataSet.PageSize == 0)
                 return MvcHtmlString.Empty;
