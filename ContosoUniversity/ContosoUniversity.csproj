@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Common\Class.cs" />
+    <Compile Remove="Common\HtmlHelperPagerExtensions.cs" />
   </ItemGroup>
 
   <ItemGroup>
