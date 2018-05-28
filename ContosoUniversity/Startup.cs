@@ -41,8 +41,8 @@ namespace ContosoUniversity
                 app.UseExceptionHandler("/Home/Error");
             }
 
-            app.UseStaticFiles();
-
+            app.UseStaticFiles();//允许应用程序提供静态资源。
+            //将MVC添加到管道并允许配置路由。
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
