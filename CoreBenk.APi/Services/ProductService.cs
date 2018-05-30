@@ -9,63 +9,63 @@ namespace CoreBenk.APi.Services
     public class ProductService
     {
         public static ProductService Current { get; } = new ProductService();
-        public List<Product> Products { get; }
+        public List<ProductDto> Products { get; }
 
         private ProductService()
         {
-            Products = new List<Product>
+            Products = new List<ProductDto>
             {
-                new Product
+                new ProductDto
                 {
                     Id = 1,
                     Name = "牛奶",
                     Price = 2.5f,
-                    Materials = new List<Material>
+                    Materials = new List<MaterialDto>
                     {
-                        new Material
+                        new MaterialDto
                         {
                             Id = 1,
                             Name = "水"
                         },
-                        new Material
+                        new MaterialDto
                         {
                             Id = 2,
                             Name = "奶粉"
                         }
                     }
                 },
-                new Product
+                new ProductDto
                 {
                     Id = 2,
                     Name = "面包",
                     Price = 4.5f,
-                    Materials = new List<Material>
+                    Materials = new List<MaterialDto>
                     {
-                        new Material
+                        new MaterialDto
                         {
                             Id = 3,
                             Name = "面粉"
                         },
-                        new Material
+                        new MaterialDto
                         {
                             Id = 4,
                             Name = "糖"
                         }
                     }
                 },
-                new Product
+                new ProductDto
                 {
                     Id = 3,
                     Name = "啤酒",
                     Price = 7.5f,
-                    Materials = new List<Material>
+                    Materials = new List<MaterialDto>
                     {
-                        new Material
+                        new MaterialDto
                         {
                             Id = 5,
                             Name = "麦芽"
                         },
-                        new Material
+                        new MaterialDto
                         {
                             Id = 6,
                             Name = "地下水"
