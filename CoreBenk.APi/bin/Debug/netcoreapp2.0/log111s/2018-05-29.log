@@ -1,0 +1,470 @@
+2018-05-29 15:09:05.6980|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/  
+2018-05-29 15:09:06.5303|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 934.3831ms 404 text/plain
+2018-05-29 15:09:06.6736|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/favicon.ico  
+2018-05-29 15:09:06.6936|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 15.3146ms 404 text/plain
+2018-05-29 15:09:19.5720|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:7816/api/product application/json 37
+2018-05-29 15:09:19.9317|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBenk.APi.Controllers.ProductController.Post (CoreBenk.APi) with arguments (CoreBenk.APi.Dtos.ProductCreation) - ModelState is Valid
+2018-05-29 15:09:21.9627|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-05-29 15:09:22.0185|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBenk.APi.Controllers.ProductController.Post (CoreBenk.APi) in 2259.1688ms
+2018-05-29 15:09:22.0518|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2461.1258ms 201 application/json; charset=utf-8
+2018-05-29 15:09:43.8828|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/api/product/4 application/json 
+2018-05-29 15:09:43.9328|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBenk.APi.Controllers.ProductController.GetProduct (CoreBenk.APi) with arguments (4) - ModelState is Valid
+2018-05-29 15:09:43.9542|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-05-29 15:09:43.9542|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBenk.APi.Controllers.ProductController.GetProduct (CoreBenk.APi) in 44.1813ms
+2018-05-29 15:09:43.9835|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 100.1846ms 200 application/json; charset=utf-8
+2018-05-29 15:09:55.9283|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:7816/api/product/4 application/json 37
+2018-05-29 15:09:55.9463|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBenk.APi.Controllers.ProductController.GetProduct (CoreBenk.APi) with arguments (4) - ModelState is Valid
+2018-05-29 15:09:55.9562|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-05-29 15:09:55.9769|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBenk.APi.Controllers.ProductController.GetProduct (CoreBenk.APi) in 28.7193ms
+2018-05-29 15:09:56.0272|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 101.242ms 200 application/json; charset=utf-8
+2018-05-29 15:10:15.6402|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:7816/api/product/4 application/json 0
+2018-05-29 15:10:15.7098|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBenk.APi.Controllers.ProductController.GetProduct (CoreBenk.APi) with arguments (4) - ModelState is Valid
+2018-05-29 15:10:15.8518|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-05-29 15:10:15.9329|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBenk.APi.Controllers.ProductController.GetProduct (CoreBenk.APi) in 232.9703ms
+2018-05-29 15:10:16.2523|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 433.1978ms 200 application/json; charset=utf-8
+2018-05-29 15:10:38.9597|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:7816/api/product/4 application/json 0
+2018-05-29 15:10:38.9679|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBenk.APi.Controllers.ProductController.GetProduct (CoreBenk.APi) with arguments (4) - ModelState is Valid
+2018-05-29 15:10:38.9679|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-05-29 15:10:38.9829|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBenk.APi.Controllers.ProductController.GetProduct (CoreBenk.APi) in 15.2496ms
+2018-05-29 15:10:39.0025|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 28.7556ms 200 application/json; charset=utf-8
+2018-05-29 15:12:31.4787|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:7816/api/product/4  0
+2018-05-29 15:12:31.4958|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBenk.APi.Controllers.ProductController.GetProduct (CoreBenk.APi) with arguments (4) - ModelState is Valid
+2018-05-29 15:12:31.5139|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-05-29 15:12:31.5306|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBenk.APi.Controllers.ProductController.GetProduct (CoreBenk.APi) in 40.1567ms
+2018-05-29 15:12:31.5918|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 110.7869ms 200 application/json; charset=utf-8
+2018-05-29 15:12:44.8681|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/api/product  
+2018-05-29 15:12:44.8799|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBenk.APi.Controllers.ProductController.GetProducts (CoreBenk.APi) with arguments ((null)) - ModelState is Valid
+2018-05-29 15:12:44.8898|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-05-29 15:12:44.8898|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBenk.APi.Controllers.ProductController.GetProducts (CoreBenk.APi) in 21.7711ms
+2018-05-29 15:12:44.9344|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 39.7026ms 200 application/json; charset=utf-8
+2018-05-29 15:13:12.7205|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:7816/api/product/4  0
+2018-05-29 15:13:12.7696|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBenk.APi.Controllers.ProductController.GetProduct (CoreBenk.APi) with arguments (4) - ModelState is Valid
+2018-05-29 15:13:12.8385|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-05-29 15:13:12.9432|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBenk.APi.Controllers.ProductController.GetProduct (CoreBenk.APi) in 123.9677ms
+2018-05-29 15:13:13.2085|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 357.0317ms 200 application/json; charset=utf-8
+2018-05-29 15:14:21.7732|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/  
+2018-05-29 15:14:22.0919|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 391.0511ms 404 text/plain
+2018-05-29 15:14:22.1680|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/favicon.ico  
+2018-05-29 15:14:22.1823|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 17.6762ms 404 text/plain
+2018-05-29 15:15:02.7544|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:7816/api/product/4  0
+2018-05-29 15:15:02.8755|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBenk.APi.Controllers.ProductController.Delete (CoreBenk.APi) with arguments (4) - ModelState is Valid
+2018-05-29 15:15:14.1046|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 404
+2018-05-29 15:15:14.1244|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBenk.APi.Controllers.ProductController.Delete (CoreBenk.APi) in 11269.7326ms
+2018-05-29 15:15:14.1879|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 11398.7656ms 404 
+2018-05-29 15:15:18.7585|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:7816/api/product/3  0
+2018-05-29 15:15:18.7804|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBenk.APi.Controllers.ProductController.Delete (CoreBenk.APi) with arguments (3) - ModelState is Valid
+2018-05-29 15:15:28.4807|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 204
+2018-05-29 15:15:28.4861|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBenk.APi.Controllers.ProductController.Delete (CoreBenk.APi) in 9720.4568ms
+2018-05-29 15:15:28.5325|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 9735.4479ms 204 
+2018-05-29 15:16:04.4692|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/api/product  
+2018-05-29 15:16:04.4893|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBenk.APi.Controllers.ProductController.GetProducts (CoreBenk.APi) with arguments ((null)) - ModelState is Valid
+2018-05-29 15:16:04.5591|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-05-29 15:16:04.6496|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBenk.APi.Controllers.ProductController.GetProducts (CoreBenk.APi) in 170.9131ms
+2018-05-29 15:16:04.8361|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 189.4686ms 200 application/json; charset=utf-8
+2018-05-29 15:38:53.7981|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/  
+2018-05-29 15:38:54.2113|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 451.11ms 404 text/plain
+2018-05-29 15:38:54.3183|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/favicon.ico  
+2018-05-29 15:38:54.3557|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 42.6144ms 404 text/plain
+2018-05-29 15:40:03.7346|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:7816/api/product/3  0
+2018-05-29 15:40:03.8844|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBenk.APi.Controllers.ProductController.Delete (CoreBenk.APi) in 48.7092ms
+2018-05-29 15:40:04.1455|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request
+2018-05-29 15:40:04.4577|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 563.1187ms 500 text/html; charset=utf-8
+2018-05-29 15:40:15.8522|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/api/product  
+2018-05-29 15:40:15.8602|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBenk.APi.Controllers.ProductController.GetProducts (CoreBenk.APi) in 1.0842ms
+2018-05-29 15:40:15.9447|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request
+2018-05-29 15:40:16.0249|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 141.0153ms 500 text/html; charset=utf-8
+2018-05-29 15:40:39.7395|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/api/product  
+2018-05-29 15:40:39.7476|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBenk.APi.Controllers.ProductController.GetProducts (CoreBenk.APi) in 0.7843ms
+2018-05-29 15:40:39.8062|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request
+2018-05-29 15:40:39.9018|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 137.0395ms 500 text/html; charset=utf-8
+2018-05-29 15:41:56.2721|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/  
+2018-05-29 15:41:56.6209|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 404.7829ms 404 text/plain
+2018-05-29 15:41:56.7209|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/favicon.ico  
+2018-05-29 15:41:56.7343|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 9.5753ms 404 text/plain
+2018-05-29 15:42:48.9148|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:7816/api/product/3  0
+2018-05-29 15:42:49.0263|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBenk.APi.Controllers.ProductController.Delete (CoreBenk.APi) with arguments (3) - ModelState is Valid
+2018-05-29 15:42:50.7854|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 204
+2018-05-29 15:42:50.8024|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBenk.APi.Controllers.ProductController.Delete (CoreBenk.APi) in 1794.766ms
+2018-05-29 15:42:50.8623|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1912.2362ms 204 
+2018-05-29 15:54:23.8517|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7817/  
+2018-05-29 15:54:24.9813|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1372.2953ms 404 text/plain
+2018-05-29 15:54:25.0573|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7817/favicon.ico  
+2018-05-29 15:54:25.1051|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 9.7504ms 404 text/plain
+2018-05-29 15:55:25.3871|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:7817/api/product/3  0
+2018-05-29 15:55:25.5016|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBenk.APi.Controllers.ProductController.Delete (CoreBenk.APi) with arguments (3) - ModelState is Valid
+2018-05-29 15:55:27.9195|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 204
+2018-05-29 15:55:27.9405|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBenk.APi.Controllers.ProductController.Delete (CoreBenk.APi) in 2461.4188ms
+2018-05-29 15:55:27.9695|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2580.1256ms 204 
+2018-05-29 15:56:38.8667|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/  
+2018-05-29 15:56:39.2010|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 369.4358ms 404 text/plain
+2018-05-29 15:56:39.2407|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/favicon.ico  
+2018-05-29 15:56:39.2639|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 19.6126ms 404 text/plain
+2018-05-29 15:56:55.3047|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:7816/api/product/3  0
+2018-05-29 15:56:55.4404|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBenk.APi.Controllers.ProductController.Delete (CoreBenk.APi) with arguments (3) - ModelState is Valid
+2018-05-29 15:56:58.2583|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 204
+2018-05-29 15:56:58.2717|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBenk.APi.Controllers.ProductController.Delete (CoreBenk.APi) in 2876.8832ms
+2018-05-29 15:56:58.3277|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2999.4977ms 204 
+2018-05-29 16:41:10.3053|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/  
+2018-05-29 16:41:10.6683|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 330.3399ms 404 text/plain
+2018-05-29 16:41:10.7116|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/favicon.ico  
+2018-05-29 16:41:10.7284|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 15.0568ms 404 text/plain
+2018-05-29 16:41:52.3477|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/api/test  
+2018-05-29 16:42:15.4940|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBenk.APi.Controllers.TestController.Get (CoreBenk.APi) in 22985.0197ms
+2018-05-29 16:42:16.0273|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request
+2018-05-29 16:42:16.5558|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 24113.2907ms 500 text/html; charset=utf-8
+2018-05-29 16:42:19.0398|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/api/test  
+2018-05-29 16:45:26.1337|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/  
+2018-05-29 16:45:26.4225|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 329.6199ms 404 text/plain
+2018-05-29 16:45:26.4894|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/favicon.ico  
+2018-05-29 16:45:26.5019|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 8.3854ms 404 text/plain
+2018-05-29 16:45:46.0785|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/api/test  
+2018-05-29 16:45:46.6158|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.2-rtm-10011 initialized 'ApiDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-05-29 16:45:59.4390|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (704ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+CREATE DATABASE [CoreBenkAPi];
+2018-05-29 16:45:59.9971|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (547ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5 EXEC(N'ALTER DATABASE [CoreBenkAPi] SET READ_COMMITTED_SNAPSHOT ON;');
+2018-05-29 16:46:00.2087|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (39ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Products] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NULL,
+    [Price] real NOT NULL,
+    CONSTRAINT [PK_Products] PRIMARY KEY ([Id])
+);
+2018-05-29 16:46:00.2240|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBenk.APi.Controllers.TestController.Get (CoreBenk.APi) with arguments ((null)) - ModelState is Valid
+2018-05-29 16:46:00.2410|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 200
+2018-05-29 16:46:00.2541|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBenk.APi.Controllers.TestController.Get (CoreBenk.APi) in 14108.7351ms
+2018-05-29 16:46:00.3036|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 14190.5752ms 200 
+2018-05-29 16:52:21.8806|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/  
+2018-05-29 16:52:22.4787|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 457.4452ms 404 text/plain
+2018-05-29 16:52:22.8319|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/favicon.ico  
+2018-05-29 16:52:23.0153|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 226.7478ms 404 text/plain
+2018-05-29 16:53:05.3061|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/api/test  
+2018-05-29 16:53:05.8115|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.2-rtm-10011 initialized 'ApiDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-05-29 16:53:17.0547|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (481ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+CREATE DATABASE [CoreBenkAPi];
+2018-05-29 16:53:17.3429|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (230ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5 EXEC(N'ALTER DATABASE [CoreBenkAPi] SET READ_COMMITTED_SNAPSHOT ON;');
+2018-05-29 16:53:17.6333|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (38ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Products] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NULL,
+    [Price] real NOT NULL,
+    CONSTRAINT [PK_Products] PRIMARY KEY ([Id])
+);
+2018-05-29 16:53:17.7101|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBenk.APi.Controllers.TestController.Get (CoreBenk.APi) with arguments ((null)) - ModelState is Valid
+2018-05-29 16:53:17.7528|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 200
+2018-05-29 16:53:17.7887|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBenk.APi.Controllers.TestController.Get (CoreBenk.APi) in 12359.4648ms
+2018-05-29 16:53:17.8031|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 12503.2812ms 200 
+2018-05-29 17:27:09.5793|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/  
+2018-05-29 17:27:09.9951|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 492.9165ms 404 text/plain
+2018-05-29 17:27:10.1552|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/favicon.ico  
+2018-05-29 17:27:10.1842|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 6.5252ms 404 text/plain
+2018-05-29 17:27:16.1696|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/api/test  
+2018-05-29 17:27:17.6745|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.2-rtm-10011 initialized 'ApiDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-05-29 17:27:20.2465|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/api/test  
+2018-05-29 17:27:20.2566|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.2-rtm-10011 initialized 'ApiDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-05-29 17:27:28.5029|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (437ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+CREATE DATABASE [CoreBenkAPi];
+2018-05-29 17:27:28.8103|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (392ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+CREATE DATABASE [CoreBenkAPi];
+2018-05-29 17:27:29.0622|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (552ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5 EXEC(N'ALTER DATABASE [CoreBenkAPi] SET READ_COMMITTED_SNAPSHOT ON;');
+2018-05-29 17:27:46.5586|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBenk.APi.Controllers.TestController.Get (CoreBenk.APi) in 30173.1994ms
+2018-05-29 17:27:46.6610|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (45ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Products] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NULL,
+    [Price] real NOT NULL,
+    CONSTRAINT [PK_Products] PRIMARY KEY ([Id])
+);
+2018-05-29 17:27:46.6885|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBenk.APi.Controllers.TestController.Get (CoreBenk.APi) with arguments ((null)) - ModelState is Valid
+2018-05-29 17:27:46.7216|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 200
+2018-05-29 17:27:46.7216|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBenk.APi.Controllers.TestController.Get (CoreBenk.APi) in 26474.4496ms
+2018-05-29 17:27:46.7474|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 26491.4071ms 200 
+2018-05-29 17:27:46.9229|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request
+2018-05-29 17:27:47.0714|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 30912.5246ms 500 text/html; charset=utf-8
+2018-05-29 17:28:12.7568|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/  
+2018-05-29 17:28:13.1893|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 344.9352ms 404 text/plain
+2018-05-29 17:28:13.3655|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/favicon.ico  
+2018-05-29 17:28:13.4300|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 74.7322ms 404 text/plain
+2018-05-29 17:28:21.4897|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/api/test  
+2018-05-29 17:28:21.8697|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.2-rtm-10011 initialized 'ApiDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-05-29 17:28:25.4481|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/api/test  
+2018-05-29 17:28:25.4929|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.2-rtm-10011 initialized 'ApiDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-05-29 17:28:32.4225|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (395ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+CREATE DATABASE [CoreBenkAPi];
+2018-05-29 17:28:32.4225|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (334ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+CREATE DATABASE [CoreBenkAPi];
+2018-05-29 17:29:24.3007|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/  
+2018-05-29 17:29:24.7101|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 353.198ms 404 text/plain
+2018-05-29 17:29:24.7518|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/favicon.ico  
+2018-05-29 17:29:24.7847|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 21.2986ms 404 text/plain
+2018-05-29 17:29:37.4891|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/api/test  
+2018-05-29 17:29:37.6986|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBenk.APi.Controllers.TestController.Get (CoreBenk.APi) with arguments ((null)) - ModelState is Valid
+2018-05-29 17:29:37.7128|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 200
+2018-05-29 17:29:37.7262|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBenk.APi.Controllers.TestController.Get (CoreBenk.APi) in 150.4868ms
+2018-05-29 17:29:37.7486|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 250ms 200 
+2018-05-29 17:30:45.2946|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/api/test  
+2018-05-29 17:30:45.3136|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBenk.APi.Controllers.TestController.Get (CoreBenk.APi) with arguments ((null)) - ModelState is Valid
+2018-05-29 17:30:45.3136|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 200
+2018-05-29 17:30:45.3318|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBenk.APi.Controllers.TestController.Get (CoreBenk.APi) in 26.5359ms
+2018-05-29 17:30:45.3649|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 45.3548ms 200 
+2018-05-29 17:31:06.7740|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/  
+2018-05-29 17:31:07.0449|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 316.772ms 404 text/plain
+2018-05-29 17:31:07.1119|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/favicon.ico  
+2018-05-29 17:31:07.1262|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 7.8022ms 404 text/plain
+2018-05-29 17:31:15.2869|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/api/test  
+2018-05-29 17:31:15.6023|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBenk.APi.Controllers.TestController.Get (CoreBenk.APi) with arguments ((null)) - ModelState is Valid
+2018-05-29 17:31:15.6192|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 200
+2018-05-29 17:31:15.6310|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBenk.APi.Controllers.TestController.Get (CoreBenk.APi) in 275.4996ms
+2018-05-29 17:31:15.6613|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 364.3537ms 200 
+2018-05-29 17:31:43.0679|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/api/test  
+2018-05-29 17:31:46.9272|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.2-rtm-10011 initialized 'ApiDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-05-29 17:31:53.3971|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBenk.APi.Controllers.TestController.Get (CoreBenk.APi) with arguments ((null)) - ModelState is Valid
+2018-05-29 17:31:53.4076|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 200
+2018-05-29 17:31:53.4076|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBenk.APi.Controllers.TestController.Get (CoreBenk.APi) in 10337.9574ms
+2018-05-29 17:31:53.4495|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 10369.9701ms 200 
+2018-05-29 17:32:09.3373|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/  
+2018-05-29 17:32:09.5953|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 313.6773ms 404 text/plain
+2018-05-29 17:32:09.6632|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/favicon.ico  
+2018-05-29 17:32:09.6759|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 10.7152ms 404 text/plain
+2018-05-29 17:32:16.1237|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/api/test  
+2018-05-29 17:32:22.9469|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBenk.APi.Controllers.TestController.Get (CoreBenk.APi) with arguments ((null)) - ModelState is Valid
+2018-05-29 17:32:26.1646|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 200
+2018-05-29 17:32:26.1778|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBenk.APi.Controllers.TestController.Get (CoreBenk.APi) in 9976.5854ms
+2018-05-29 17:32:26.2059|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 10078.3783ms 200 
+2018-05-29 17:33:12.1899|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/  
+2018-05-29 17:33:12.7624|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 528.351ms 404 text/plain
+2018-05-29 17:33:12.8038|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/favicon.ico  
+2018-05-29 17:33:12.8300|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 12.3045ms 404 text/plain
+2018-05-29 17:34:16.8350|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/api/test  
+2018-05-29 17:36:07.9754|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/  
+2018-05-29 17:36:08.2785|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 494.5294ms 404 text/plain
+2018-05-29 17:36:08.3471|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/favicon.ico  
+2018-05-29 17:36:08.3664|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 7.8781ms 404 text/plain
+2018-05-29 17:36:29.7171|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/api/test  
+2018-05-29 17:36:30.0328|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.2-rtm-10011 initialized 'ApiDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-05-29 17:36:34.7090|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/api/test  
+2018-05-29 17:36:34.7090|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.2-rtm-10011 initialized 'ApiDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-05-29 17:36:40.6907|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (513ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+CREATE DATABASE [CoreBenkAPi];
+2018-05-29 17:36:40.6907|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (464ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+CREATE DATABASE [CoreBenkAPi];
+2018-05-29 17:37:36.5744|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (870ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5 EXEC(N'ALTER DATABASE [CoreBenkAPi] SET READ_COMMITTED_SNAPSHOT ON;');
+2018-05-29 17:37:36.5896|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBenk.APi.Controllers.TestController.Get (CoreBenk.APi) in 61844.4833ms
+2018-05-29 17:37:36.6610|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (14ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Products] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NULL,
+    [Price] real NOT NULL,
+    CONSTRAINT [PK_Products] PRIMARY KEY ([Id])
+);
+2018-05-29 17:37:51.8091|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBenk.APi.Controllers.TestController.Get (CoreBenk.APi) with arguments ((null)) - ModelState is Valid
+2018-05-29 17:37:51.8384|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request
+2018-05-29 17:37:51.8864|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 200
+2018-05-29 17:37:51.9091|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBenk.APi.Controllers.TestController.Get (CoreBenk.APi) in 82101.5671ms
+2018-05-29 17:37:51.9626|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 82206.1753ms 200 
+2018-05-29 17:37:52.1122|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 77390.7718ms 500 text/html; charset=utf-8
+2018-05-29 17:38:35.7401|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/  
+2018-05-29 17:38:36.0094|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 311.0094ms 404 text/plain
+2018-05-29 17:38:36.0806|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/favicon.ico  
+2018-05-29 17:38:36.0914|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 8.7359ms 404 text/plain
+2018-05-29 17:38:44.8474|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/api/test  
+2018-05-29 17:38:48.7349|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.2-rtm-10011 initialized 'ApiDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-05-29 17:39:05.2449|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (412ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+CREATE DATABASE [CoreBenkAPi];
+2018-05-29 17:39:05.4323|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (180ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5 EXEC(N'ALTER DATABASE [CoreBenkAPi] SET READ_COMMITTED_SNAPSHOT ON;');
+2018-05-29 17:39:05.4836|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Products] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NULL,
+    [Price] real NOT NULL,
+    CONSTRAINT [PK_Products] PRIMARY KEY ([Id])
+);
+2018-05-29 17:39:11.3133|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBenk.APi.Controllers.TestController.Get (CoreBenk.APi) with arguments ((null)) - ModelState is Valid
+2018-05-29 17:39:13.8679|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 200
+2018-05-29 17:39:13.8804|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBenk.APi.Controllers.TestController.Get (CoreBenk.APi) in 28964.4335ms
+2018-05-29 17:39:13.9150|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 29041.8938ms 200 
+2018-05-29 17:39:31.0798|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/api/test  
+2018-05-29 17:39:33.2392|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.2-rtm-10011 initialized 'ApiDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-05-29 17:39:33.3294|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (56ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+2018-05-29 17:39:37.1719|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBenk.APi.Controllers.TestController.Get (CoreBenk.APi) with arguments ((null)) - ModelState is Valid
+2018-05-29 17:39:37.1876|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 200
+2018-05-29 17:39:37.1876|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBenk.APi.Controllers.TestController.Get (CoreBenk.APi) in 6106.7857ms
+2018-05-29 17:39:37.2312|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 6144.3796ms 200 
+2018-05-29 17:42:37.4665|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/  
+2018-05-29 17:42:38.6840|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1216.7827ms 404 text/plain
+2018-05-29 17:42:38.7137|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/favicon.ico  
+2018-05-29 17:42:38.7832|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 11.4197ms 404 text/plain
+2018-05-29 17:43:28.6168|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/api/test  
+2018-05-29 17:43:29.2626|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.2-rtm-10011 initialized 'ApiDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-05-29 17:43:40.5017|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (433ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+CREATE DATABASE [CoreBenkAPi];
+2018-05-29 17:43:40.7361|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (211ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5 EXEC(N'ALTER DATABASE [CoreBenkAPi] SET READ_COMMITTED_SNAPSHOT ON;');
+2018-05-29 17:43:40.8098|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (23ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Products] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NULL,
+    [Price] real NOT NULL,
+    CONSTRAINT [PK_Products] PRIMARY KEY ([Id])
+);
+2018-05-29 17:43:44.1463|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBenk.APi.Controllers.TestController.Get (CoreBenk.APi) with arguments ((null)) - ModelState is Valid
+2018-05-29 17:43:44.1590|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 200
+2018-05-29 17:43:44.1708|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBenk.APi.Controllers.TestController.Get (CoreBenk.APi) in 15476.456ms
+2018-05-29 17:43:44.1708|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 15564.1703ms 200 
+2018-05-29 17:44:58.9809|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/  
+2018-05-29 17:44:59.4702|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 463.7191ms 404 text/plain
+2018-05-29 17:44:59.7703|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/favicon.ico  
+2018-05-29 17:44:59.9212|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 199.8716ms 404 text/plain
+2018-05-29 17:45:13.4952|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/api/test  
+2018-05-29 17:45:13.9336|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.2-rtm-10011 initialized 'ApiDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-05-29 17:45:24.5989|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (513ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+CREATE DATABASE [CoreBenkAPi];
+2018-05-29 17:45:24.8441|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (239ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5 EXEC(N'ALTER DATABASE [CoreBenkAPi] SET READ_COMMITTED_SNAPSHOT ON;');
+2018-05-29 17:45:24.9065|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Materials] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NULL,
+    CONSTRAINT [PK_Materials] PRIMARY KEY ([Id])
+);
+2018-05-29 17:45:24.9065|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Products] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NULL,
+    [Price] real NOT NULL,
+    CONSTRAINT [PK_Products] PRIMARY KEY ([Id])
+);
+2018-05-29 17:45:24.9495|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBenk.APi.Controllers.TestController.Get (CoreBenk.APi) with arguments ((null)) - ModelState is Valid
+2018-05-29 17:45:24.9658|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 200
+2018-05-29 17:45:24.9810|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBenk.APi.Controllers.TestController.Get (CoreBenk.APi) in 11424.7847ms
+2018-05-29 17:45:25.0126|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 11496.7408ms 200 
+2018-05-29 17:47:45.9540|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/  
+2018-05-29 17:47:46.2082|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 327.5463ms 404 text/plain
+2018-05-29 17:47:46.2893|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/favicon.ico  
+2018-05-29 17:47:46.3055|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 8.8833ms 404 text/plain
+2018-05-29 17:48:09.3300|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/api/test  
+2018-05-29 18:12:40.5376|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/  
+2018-05-29 18:12:40.8019|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 325.8037ms 404 text/plain
+2018-05-29 18:12:40.8676|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/favicon.ico  
+2018-05-29 18:12:40.8826|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 9.2369ms 404 text/plain
+2018-05-29 18:12:57.3755|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/api/test  
+2018-05-29 18:21:53.4215|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/  
+2018-05-29 18:21:53.7037|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 340.3806ms 404 text/plain
+2018-05-29 18:21:53.7675|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/favicon.ico  
+2018-05-29 18:21:53.7675|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 9.4257ms 404 text/plain
+2018-05-29 18:21:57.4647|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/api/test  
+2018-05-29 18:27:45.2379|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/  
+2018-05-29 18:27:46.2962|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 837.6374ms 404 text/plain
+2018-05-29 18:27:46.4855|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/favicon.ico  
+2018-05-29 18:27:46.5377|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 75.3829ms 404 text/plain
+2018-05-29 18:27:49.2107|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/api/test  
+2018-05-29 18:30:09.1851|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/  
+2018-05-29 18:30:09.6145|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 371.0186ms 404 text/plain
+2018-05-29 18:30:09.6422|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/favicon.ico  
+2018-05-29 18:30:09.6711|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 16.3773ms 404 text/plain
+2018-05-29 18:47:12.8017|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/  
+2018-05-29 18:47:13.0782|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 334.2075ms 404 text/plain
+2018-05-29 18:47:13.1451|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/favicon.ico  
+2018-05-29 18:47:13.1451|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 9.6257ms 404 text/plain
+2018-05-29 18:47:33.7075|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/api/test  
+2018-05-29 18:50:47.8556|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/  
+2018-05-29 18:50:48.1778|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 379.0389ms 404 text/plain
+2018-05-29 18:50:48.2585|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/favicon.ico  
+2018-05-29 18:50:48.2768|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 20.1208ms 404 text/plain
+2018-05-29 18:50:52.1748|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/api/test  
+2018-05-29 18:58:33.8336|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/  
+2018-05-29 18:58:34.0628|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 275.1575ms 404 text/plain
+2018-05-29 18:58:34.1262|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/favicon.ico  
+2018-05-29 18:58:34.1407|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 10.7588ms 404 text/plain
+2018-05-29 18:59:01.7729|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/api/test  
+2018-05-29 18:59:54.0878|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.2-rtm-10011 initialized 'ApiDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-05-29 18:59:59.2935|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/  
+2018-05-29 18:59:59.3379|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 7.0312ms 404 text/plain
+2018-05-29 19:00:04.6353|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/api/test  
+2018-05-29 19:00:04.6457|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.2-rtm-10011 initialized 'ApiDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-05-29 19:00:05.0196|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (644ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+CREATE DATABASE [CoreBenkAPi];
+2018-05-29 19:00:05.0498|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (278ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+CREATE DATABASE [CoreBenkAPi];
+2018-05-29 19:00:09.4677|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (354ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5 EXEC(N'ALTER DATABASE [CoreBenkAPi] SET READ_COMMITTED_SNAPSHOT ON;');
+2018-05-29 19:00:09.4970|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBenk.APi.Controllers.TestController.Get (CoreBenk.APi) in 4753.6625ms
+2018-05-29 19:00:09.8427|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (82ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Materials] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(50) NOT NULL,
+    CONSTRAINT [PK_Materials] PRIMARY KEY ([Id])
+);
+2018-05-29 19:00:09.9780|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (14ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Products] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(50) NOT NULL,
+    [Price] decimal(8,2) NOT NULL,
+    CONSTRAINT [PK_Products] PRIMARY KEY ([Id])
+);
+2018-05-29 19:00:10.1128|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request
+2018-05-29 19:00:10.2538|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBenk.APi.Controllers.TestController.Get (CoreBenk.APi) with arguments ((null)) - ModelState is Valid
+2018-05-29 19:00:10.3189|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 200
+2018-05-29 19:00:10.4065|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBenk.APi.Controllers.TestController.Get (CoreBenk.APi) in 68464.8861ms
+2018-05-29 19:00:10.4724|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 68662.2269ms 200 
+2018-05-29 19:00:10.6643|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 6082.5923ms 500 text/html; charset=utf-8
+2018-05-29 19:00:36.8537|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/  
+2018-05-29 19:00:37.1315|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 315.8728ms 404 text/plain
+2018-05-29 19:00:37.2156|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/favicon.ico  
+2018-05-29 19:00:37.2352|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 22.9856ms 404 text/plain
+2018-05-29 19:00:41.4147|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/api/test  
+2018-05-29 19:00:46.8859|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.2-rtm-10011 initialized 'ApiDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-05-29 19:00:58.1282|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (472ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+CREATE DATABASE [CoreBenkAPi];
+2018-05-29 19:00:58.3961|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (249ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5 EXEC(N'ALTER DATABASE [CoreBenkAPi] SET READ_COMMITTED_SNAPSHOT ON;');
+2018-05-29 19:00:58.4449|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Materials] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(50) NOT NULL,
+    CONSTRAINT [PK_Materials] PRIMARY KEY ([Id])
+);
+2018-05-29 19:00:58.4449|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Products] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(50) NOT NULL,
+    [Price] decimal(8,2) NOT NULL,
+    CONSTRAINT [PK_Products] PRIMARY KEY ([Id])
+);
+2018-05-29 19:00:58.4707|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBenk.APi.Controllers.TestController.Get (CoreBenk.APi) with arguments ((null)) - ModelState is Valid
+2018-05-29 19:00:58.4851|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 200
+2018-05-29 19:00:58.5017|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBenk.APi.Controllers.TestController.Get (CoreBenk.APi) in 17012.0134ms
+2018-05-29 19:00:58.5254|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 17108.589ms 200 
+2018-05-29 19:01:20.5716|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/api/test  
+2018-05-29 19:01:20.5921|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.2-rtm-10011 initialized 'ApiDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-05-29 19:01:20.6739|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (27ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+2018-05-29 19:01:20.6739|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBenk.APi.Controllers.TestController.Get (CoreBenk.APi) with arguments ((null)) - ModelState is Valid
+2018-05-29 19:01:20.6881|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 200
+2018-05-29 19:01:20.6881|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBenk.APi.Controllers.TestController.Get (CoreBenk.APi) in 117.4322ms
+2018-05-29 19:01:20.7307|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 131.1043ms 200 
+2018-05-29 19:01:22.0215|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/api/test  
+2018-05-29 19:01:22.0215|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.2-rtm-10011 initialized 'ApiDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-05-29 19:01:22.0397|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+2018-05-29 19:01:22.0496|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBenk.APi.Controllers.TestController.Get (CoreBenk.APi) with arguments ((null)) - ModelState is Valid
+2018-05-29 19:01:22.0496|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 200
+2018-05-29 19:01:22.0910|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBenk.APi.Controllers.TestController.Get (CoreBenk.APi) in 36.0519ms
+2018-05-29 19:01:22.1249|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 74.8912ms 200 
+2018-05-29 19:01:57.4734|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/  
+2018-05-29 19:01:57.7135|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 291.7327ms 404 text/plain
+2018-05-29 19:01:57.7643|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/favicon.ico  
+2018-05-29 19:01:57.7826|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5.8941ms 404 text/plain
+2018-05-29 19:02:04.3275|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:7816/api/test  
+2018-05-29 19:02:04.8504|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.2-rtm-10011 initialized 'ApiDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-05-29 19:02:04.9839|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+2018-05-29 19:02:05.0000|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBenk.APi.Controllers.TestController.Get (CoreBenk.APi) with arguments ((null)) - ModelState is Valid
+2018-05-29 19:02:05.0225|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 200
+2018-05-29 19:02:05.0339|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBenk.APi.Controllers.TestController.Get (CoreBenk.APi) in 595.7186ms
+2018-05-29 19:02:05.0650|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 723.2867ms 200 
