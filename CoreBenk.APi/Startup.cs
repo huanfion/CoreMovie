@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using CoreBenk.APi.Data;
+using CoreBenk.APi.Repositories;
 using CoreBenk.APi.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -41,10 +42,11 @@ namespace CoreBenk.APi
             services.AddDbContext<ApiDbContext>(options=>options.UseSqlServer(Configuration.GetConnectionString("DefaultSqlServer")));
             services.AddTransient<LocalMailService>();
             services.AddTransient<IMailService, LocalMailService>();
+            services.AddScoped<IProductRepository, ProductRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory,ApiDbContext context)
         {
             loggerFactory.AddNLog();//添加NLog
             if (env.IsDevelopment())
@@ -55,7 +57,7 @@ namespace CoreBenk.APi
             {
                 app.UseExceptionHandler();
             }
-
+            DbInitializer.Initialize(context);
             app.UseMvc();
             app.UseStatusCodePages();
             //app.Run(async (context) =>

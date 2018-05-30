@@ -3,76 +3,78 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using CoreBenk.APi.Dtos;
+using CoreBenk.APi.Entities;
 
-namespace CoreBenk.APi.Services
+namespace CoreBenk.APi.Data
 {
-    public class ProductService
+    public class DbInitializer
     {
-        public static ProductService Current { get; } = new ProductService();
-        public List<ProductDto> Products { get; }
-
-        private ProductService()
+        public static void Initialize(ApiDbContext context)
         {
-            Products = new List<ProductDto>
+            context.Database.EnsureCreated();
+
+            if (context.Products.Any())
             {
-                new ProductDto
+                return;
+            }
+
+            var Products = new List<Product>
+            {
+                new Product
                 {
-                    Id = 1,
                     Name = "牛奶",
                     Price = new decimal(2.5),
-                    Materials = new List<MaterialDto>
+                    Description = "这是牛奶",
+                    Materials = new List<Material>
                     {
-                        new MaterialDto
+                        new Material
                         {
-                            Id = 1,
                             Name = "水"
                         },
-                        new MaterialDto
+                        new Material
                         {
-                            Id = 2,
                             Name = "奶粉"
                         }
                     }
                 },
-                new ProductDto
+                new Product
                 {
-                    Id = 2,
                     Name = "面包",
                     Price = new decimal(4.5),
-                    Materials = new List<MaterialDto>
+                    Description = "这是面包",
+                    Materials = new List<Material>
                     {
-                        new MaterialDto
+                        new Material
                         {
-                            Id = 3,
                             Name = "面粉"
                         },
-                        new MaterialDto
+                        new Material
                         {
-                            Id = 4,
                             Name = "糖"
                         }
                     }
                 },
-                new ProductDto
+                new Product
                 {
-                    Id = 3,
                     Name = "啤酒",
                     Price = new decimal(7.5),
-                    Materials = new List<MaterialDto>
+                    Description = "这是啤酒",
+                    Materials = new List<Material>
                     {
-                        new MaterialDto
+                        new Material
                         {
-                            Id = 5,
                             Name = "麦芽"
                         },
-                        new MaterialDto
+                        new Material
                         {
-                            Id = 6,
                             Name = "地下水"
                         }
                     }
                 }
             };
+
+            context.Products.AddRange(Products);
+            context.SaveChanges();
         }
     }
 }

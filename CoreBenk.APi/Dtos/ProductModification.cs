@@ -15,6 +15,6 @@ namespace CoreBenk.APi.Dtos
 
         [Display(Name = "价格")]
         [Range(0, Double.MaxValue, ErrorMessage = "{0}的值必须大于{1}")]
-        public float Price { get; set; }
+        public decimal Price { get; set; }
     }
 }

@@ -16,7 +16,8 @@ namespace CoreBenk.APi.Data
         public ApiDbContext(DbContextOptions<ApiDbContext> options)
             : base(options)
         {
-            Database.EnsureCreated(); //EnsureCreated()的作用是，如果有数据库存在，那么什么也不会发生。但是如果没有，那么就会创建一个数据库。
+            //Database.EnsureCreated(); //EnsureCreated()的作用是，如果有数据库存在，那么什么也不会发生。但是如果没有，那么就会创建一个数据库。
+            Database.Migrate();//作用相当于在程序包管理器控制台输入Update-Database
         }
 
         public DbSet<Product> Products { get; set; }

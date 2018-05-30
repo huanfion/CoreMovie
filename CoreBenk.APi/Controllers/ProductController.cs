@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using CoreBenk.APi.Dtos;
+using CoreBenk.APi.Repositories;
 using CoreBenk.APi.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -14,11 +15,15 @@ namespace CoreBenk.APi.Controllers
     {
         private ILogger<ProductController> _logger;
         private readonly IMailService _localMailService;
-        public ProductController(ILogger<ProductController> logger, IMailService localMailService)
+        private readonly IProductRepository _productRepository;
+        public ProductController(ILogger<ProductController> logger
+            , IMailService localMailService
+            ,IProductRepository productRepository)
         {
             _logger = logger;
             _localMailService=localMailService;
-    }
+            _productRepository = productRepository;
+        }
 
         //public IActionResult Index()
         //{
@@ -27,7 +32,20 @@ namespace CoreBenk.APi.Controllers
         [HttpGet]
         public IActionResult GetProducts()
         {
-            return Ok(ProductService.Current.Products);
+            var products = _productRepository.GetProducts();
+            var result = new List<ProductWithoutMaterialDto>();
+            foreach (var item in products)
+            {
+                result.Add(new ProductWithoutMaterialDto
+                {
+                    Id=item.Id,
+                    Name=item.Name,
+                    Description=item.Description,
+                    Price=item.Price
+
+                });
+            }
+            return Ok(result);
         }
 
         [Route("{id}", Name = "GetProduct")]
